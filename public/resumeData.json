@@ -2,14 +2,14 @@
   "main": {
     "name": "Reyam",
     "occupation": "Machine learning Engineer",
-    "description": "or I like people to call me data scientist, Most of the people who work or study with me, called me the queen of data, I like Data science a lot,or I like people to call me data scientist, Most of the people who work or study with me, called me the queen of data, I like Data science a lotor I like people to call me data scientist, Most of the people who work or study with me, called me the queen of data, I like Data science a lot  ",
+    "description": "In general, I like anything related to data science, some of my colleagues called me the Queen of data in a way to describe how much I like to work with DATA. My passion for science, started when I was a child, I liked technologies a lot, I used to try to figure out how the computer components linked to each other, in the meantime, I was trying to fix the broking electronic devices. I'm a fast learner, very keen and committed person, I always have a clear target, my life revolve around ACHIEVEMENTS ",
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "reyam.enad@gmail.com",
     "phone": "555-555-5555",
     "address": {
-      "city": "Glasgow",
+      "city": "London",
       "state": "United Kingdom"
     },
     "website": "http://www.timbakerdev.com",
@@ -36,16 +36,16 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "University of Strathclyde , ​Glasgow?",
+        "degree": "Masters in Artificial Intelligence",
+        "graduated": "August 2020",
+        "description": "I did Master’s Degree in Artificial Intelligence full time course in Glasgow United Kingdom. My specialized coursework and projects at Strathclyde include AI applied to areas such as finance, planning and data analytics."
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Syrian Private University",
+        "degree": "Bachelor degree of Computer and Informatics engineering",
+        "graduated": "October 2013",
+        "description": "During 5 years I learnt, explored and built a wide range of Projects and Applications that involived different topics such as Networking,Logical,Databases,Algorithms,Programming,security.The Bachelor's graduation project was a web application for council by asp.net with sql-serve"
       }
     ],
     "work": [
@@ -68,8 +68,12 @@
         "level": "60%"
       },
       {
-        "name": "Illustrator",
-        "level": "55%"
+        "name": "Machine Learning",
+        "level": "75%"
+      },
+      {
+        "name": "Artificial Intelligence",
+        "level": "75%"
       },
       {
         "name": "ReactJs",
