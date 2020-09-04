@@ -132,32 +132,42 @@
       {
         "title": "Canadian Wanderlust",
         "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "image": "pho1.png"
       },
       {
         "title": "Fury Fighting Gear",
         "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "image": "pho2t.png"
       },
       {
         "title": "Original Thai Food",
         "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "image": "pho3.png"
       },
       {
         "title": "Resume Website",
         "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "image": "pho4.png"
       },
       {
-        "title": "Smirkspace",
+        "title": "MIQA",
         "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "image": "pho5.png"
+      },
+      {
+        "title": "MIQA",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "pho7.png"
+      },
+      {
+        "title": "MIQA",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "pho8.png"
+      },
+      {
+        "title": "MIQA",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "pho9.png"
       }
     ]
   },
