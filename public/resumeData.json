@@ -50,16 +50,34 @@
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Inclusive Labs",
+        "title": "Software Developer",
+        "years": "Present",
+        "description": "Responsive website for Next of Kin by using React, Gatsby, Netlify.it is a team work based on collaborative using Github"
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Kalam Research & Media",
+        "title": "​Media consultant",
+        "years": "Jan- 2017 sep 2018",
+        "description": "Develop media plans and policies with executives in the organisation, Draft press releases, news, and magazine articles, Work on various applications, such as database management or word processing. Was responsible for events management and prepared speeches for concerned people. Directed public relations campaigns for the company"
+      },
+      {
+        "company": "Libya channel",
+        "title": "​Program Coordinator",
+        "years": "Jan 2017 sep 2018",
+        "description": "Manage tv programs preparations and was part of the supervision team when it was live.Provided detailed reports regarding the programs.Provided various training to new staff. Writing documentaries, one of them talked about Libya’spolitical history, especially the war between the Sinusian family and the Italians"
+      },
+      {
+        "company": "Al Hadath TV",
+        "title": "​Web Developer",
+        "years": "Jan- 2017 sep 2018",
+        "description": "Program And develop website frontend, backend"
+      },
+      {
+        "company": "Specialized Technical Equipment",
+        "title": "​Web Developer",
+        "years": "April 2015 September 2015",
+        "description": "Program And develop website frontend, backend"
       }
     ],
     "skills": [
@@ -88,12 +106,24 @@
         "level": "80%"
       },
       {
-        "name": "VueJs",
-        "level": "50%"
+        "name": "Search Algorithms",
+        "level": "60%"
+      },
+      {
+        "name": "Data Visualization",
+        "level": "80%"
       },
       {
         "name": "MongoDB",
         "level": "80%"
+      },
+      {
+        "name": "Postgres",
+        "level": "80%"
+      },
+      {
+        "name": "Neural Network",
+        "level": "60%"
       }
     ]
   },
