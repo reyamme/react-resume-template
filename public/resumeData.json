@@ -130,43 +130,43 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
+        "title": "Visulization for categorical features",
+        "category": "",
         "image": "pho1.png"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
+        "title": "Visulization for three features vs binary target",
+        "category": "",
         "image": "pho2t.png"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
+        "title": "Visulization for four features vs binary target",
+        "category": "",
         "image": "pho3.png"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
+        "title": "Visulization for binary features vs binary target",
+        "category": "",
         "image": "pho4.png"
       },
       {
-        "title": "MIQA",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "title": "Box plot for binary target",
+        "category": "",
         "image": "pho5.png"
       },
       {
-        "title": "MIQA",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "title": "distribution plot for numeric variable",
+        "category": "",
         "image": "pho7.png"
       },
       {
-        "title": "MIQA",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "title": "Map for CA",
+        "category": "",
         "image": "pho8.png"
       },
       {
-        "title": "MIQA",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "title": "correlation plot",
+        "category": "",
         "image": "pho9.png"
       }
     ]

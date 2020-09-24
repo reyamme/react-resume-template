@@ -1,118 +1,105 @@
 import React, { Component } from 'react';
+import ChatBot from 'react-simple-chatbot';
 
 class Contact extends Component {
-  render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
-    }
+   render() {
 
-    return (
-      <section id="contact">
+      // if (this.props.data) {
+      //    var name = this.props.data.name;
+      //    var street = this.props.data.address.street;
+      //    var city = this.props.data.address.city;
+      //    var state = this.props.data.address.state;
+      //    var zip = this.props.data.address.zip;
+      //    var phone = this.props.data.phone;
+      //    var email = this.props.data.email;
+      //    var message = this.props.data.contactmessage;
+      // }
 
-         <div className="row section-head">
+      return (
+         <section id="contact">
+            <div className='chatbot'>
 
-            <div className="two columns header-col">
+               <ChatBot
+                  headerTitle="Chat with my virtual assistant "
+                  recognitionEnable={true}
+                  steps={[
+                     {
+                        id: '1',
+                        message: 'Hello, I am a robot built by Reyam, what is your name? ',
+                        trigger: '2',
+                     },
+                     {
+                        id: '2',
+                        user: true,
+                        trigger: '3',
+                     },
+                     {
+                        id: '3',
+                        message: 'Hi {previousValue}, nice to meet you! how can I help you',
+                        trigger: '4',
+                     },
+                     {
+                        id: '4',
+                        options: [
+                           { value: 1, label: 'Who is Reyam?', trigger: '5' },
+                           { value: 2, label: 'How old is she?', trigger: '6' },
+                           { value: 3, label: 'is she a writer?', trigger: '7' },
+                           { value: 4, label: 'Data scientist or Web developer?', trigger: '8' },
+                           { value: 5, label: 'Any programming language', trigger: '9' },
+                           { value: 6, label: 'where is she live?', trigger: '10' },
+                        ],
+                     },
+                     {
+                        id: '5',
+                        message: 'she did a master degree in Artificial Intelligence and a Bachelor degree in Computer Engineering, also she is a writer and activist ',
+                        trigger: '11',
+                     },
+                     {
+                        id: '6',
+                        message: 'She born in Baghadad in 15/01/1991',
+                        trigger: '11',
 
-               <h1><span>Get In Touch.</span></h1>
+                     },
+                     {
+                        id: '7',
+                        message: 'she is a writer and she has a blog and she published a novel about women in Middle East',
+                        trigger: '11',
+                     },
+                     {
+                        id: '8',
+                        message: 'she has experience in web development (ASP.net, JS, React,etc,  databases) and also she like a lot Machine learning and Data science',
+                        trigger: '11',
+                     },
+                     {
+                        id: '9',
+                        message: 'Python, JS, React, C#, Postgress, SQL, HTML, CSS, R language, Netlify, Gatsby, firebase, Git, Terminal',
+                        trigger: '11',
+                     },
+                     {
+                        id: '10',
+                        message: 'United Kingdom',
+                        trigger: '11',
 
+                     },
+                     {
+                        id: '11',
+                        options: [
+                           { value: 1, label: 'Do you need to know more?', trigger: '4' },
+                           { value: 2, label: 'End our chat', trigger: '12' },
+                        ]
+                     },
+                     {
+                        id: '12',
+                        message: 'It was my pleasre talking with you! see you soon '
+                     }
+
+                  ]}
+               />
             </div>
-
-            <div className="ten columns">
-
-                  <p className="lead">{message}</p>
-
-            </div>
-
-         </div>
-
-         <div className="row">
-            <div className="eight columns">
-
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button className="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif" />
-                     </span>
-                  </div>
-					</fieldset>
-				   </form>
-
-           <div id="message-warning"> Error boy</div>
-				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
-           </div>
-
-
-            <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
-					   </p>
-				   </div>
-
-               <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest Tweets</h4>
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-		         </div>
-            </aside>
-      </div>
-   </section>
-    );
-  }
+         </section>
+      );
+   }
 }
 
 export default Contact;

@@ -801,6 +801,13 @@ call-to-action .button {
    padding-bottom: 102px;
    color: #636363;
 }
+#contact .chatbot{
+   position: sticky;
+    display: block;
+    width: 50%;
+    margin-left: 40%
+}
+
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
